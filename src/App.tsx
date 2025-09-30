@@ -1,7 +1,5 @@
 /* ---------------- src/App.tsx ---------------- */
 import { Suspense, lazy, useEffect, useState } from 'react'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { motion } from 'framer-motion'
 import Header from './components/Header'
 import Hero from './components/Hero'
 const Categories = lazy(() => import('./components/Categories'))
