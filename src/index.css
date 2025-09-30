@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+html, body, #root {
+height: 100%;
+}
+
+
+/* Optional small utility for smooth-scrolling */
+html {
+scroll-behavior: smooth;
+}
