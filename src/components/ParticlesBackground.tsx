@@ -15,7 +15,7 @@ export default function ParticlesBackground({ darkMode }: { darkMode: boolean })
   // Options en fonction du dark mode
   const options = useMemo(() => ({
     background: {
-      color: { value: darkMode ? "#0f172a" : "#ffffff" },
+      color: { value: darkMode ? "#0f172a" : "#f6f6dd" },
     },
     particles: {
       color: { value: darkMode ? "#facc15" : "#1e3a8a" },
